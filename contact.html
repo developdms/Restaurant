@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bope restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/bope-icon.png" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div>
+                    <img src="img/logoblack.png" class="header-logo"/>
+                    <p>CONTACT AND BOOKING</p>
+                </div>
+                <nav class="line-top line-wh" id="principal-nav">
+                    <a href="index.html">HOME</a>
+                    <a href="menu.html">MENU</a>
+                    <a href="events.html">EVENTS</a>
+                    <a href="#" id="active">CONTACT</a>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="line-top line-wh" id="contact-sections-container">
+                    <section id="contact-first">
+                        <div id="location-map">
+                            <img src="img/location/arrow.png" id="location-arrow"/>
+                        </div>
+                        <div>
+                            <p><img src="img/logowhite.png"/> restaurant</p>
+                        </div>
+                        
+                        <div id="contact-first-text">
+                            <div><p class="t-center enfa">Address</p></div>
+                            <div><p class="t-center">Cuesta de Gomérez 82<br/>Granada<br/>Andalucía<br/>Spain</p></div>
+                            <div><p class="t-center enfa">Phone</p></div>
+                            <div><p class="t-center">958 222 333</p></div>
+                            <div><p class="t-center enfa">E-mail</p></div>
+                            <div><p class="t-center">infoandbooking@boperestaurant.es</p> </div>
+
+                        </div>
+                    </section>
+                    <section id="contact-second">
+                        <div id="booking-form-container">
+                            <form id="booking-form">
+                                <div>
+                                    <div>
+                                        <p id="booking-form-title">BOOKING FORM</p>
+                                    </div>
+                                    <div class="line-top line-wh short-container">
+                                        <div>
+                                            <label>Name:<br/> <input class="form-input short" type="text" name="name"></label>     
+                                        </div>
+                                        <div>
+                                            <label>Phone:<br/> <input class="form-input short" type="tel" name="phone"></label>
+                                        </div>
+                                    </div>
+                                    <div class="line-top line-wh large-container f-right">
+                                        <div>
+                                            <label>Surname:<br/> <input class="form-input large" type="text" name="email"></label>
+                                        </div>
+                                        <div>
+                                            <label>E-mail:<br/> <input class="form-input large" type="email" name="email"></label>
+                                        </div>                       
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <label>Event type: 
+                                                <select class="form-input">
+                                                    <option value="0">Select event</option>
+                                                    <option value="1">Free event</option>
+                                                    <option value="2" disabled>Grill day</option>
+                                                    <option value="3">Christmas day</option>
+                                                    <option value="4">Valentine´s day</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="line-wh line-top line-form">
+                                            <label>Date:<br/> <input class="form-input short" type="date" name="date"/></label>
+                                        </div>
+                                        <div class="line-wh line-top line-form">
+                                            <label>Time:<br/> <input class="form-input short" type="time" name="time"/></label>
+                                        </div>
+                                        <div class="line-wh line-top line-form">
+                                            <label>Guest number:</label><br/><input class="extra-short form-input" id="guestnumber" type="number" min="0" name="time"/>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <small>I have read and agree with bope´s policy about privacy and use conditions.</small>
+                                    </div>
+                                    <div class="f-right form-button-container">
+                                        <input type="reset" value="DROP DATA" class="form-button"/>
+                                        <input type="submit" value="SEND BOOKING" class="form-button"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+                </div>
+                <aside class="line-top line-wh" id="events-status">
+                    <h3>NEXT EVENTS</h3>
+                    <ul>
+                        <li>
+                            <figure class="events-status-figure">
+                                <h5>
+                                    GRILL DAY
+                                </h5>
+                                <img src="img/events/grill-icon.png">
+                                <div>                                                            
+                                    <p class="f-left event-date">Date: 12/12/2016</p>
+                                    <p class="f-right t-center red state-flag">SOLD OUT</p>
+                                </div>                                
+                            </figure>
+                        </li>
+                        <li>
+
+                            <figure class="events-status-figure">
+                                <h5>CHRISTMAS PARTY</h5>
+                                <img src="img/events/christmas-poster.png">
+                                <div>
+                                    <p class="f-left event-date">Date: 25/12/2016</p>
+                                    <p class="f-right t-center yellow state-flag">LAST BOOKINGS</p>
+                                </div>
+                            </figure>                                
+
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+                            <figure class="events-status-figure">
+                                <h5>VALENTINE´S DAY</h5>
+                                <img src="img/events/valentine-poster.png"> 
+                                <div>
+                                    <p class="f-left event-date">Date: 14/02/2017</p> 
+                                    <p class="f-right t-center green state-flag">AVAILABLE</p>
+                                </div>
+                            </figure>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+
+            <footer>
+                <div id="footer-bope-links">
+                    <a href="index.html">HOME</a>
+                    <a href="menu.html">MENU</a>
+                    <img src="img/logoblack.png"/>
+                    <a href="events.html">EVENTS</a>
+                    <a href="contact.html">CONTACT</a>
+                </div>
+                <div id="partners">
+                    <p>Partners</p>
+                    <img src="img/footer/camara-comercio.png" />
+                    <img src="img/footer/turismo-granada.png" />
+                    <img src="img/footer/diputacion-granada.png" />
+                    <img src="img/footer/junta-andalucia.png" />
+                </div>
+                <div id="footer-followus">
+                    <p>Follow us</p>
+                    <div>
+                        <div id="facebook-link"></div>
+                        <div id="twitter-link"></div>
+                        <div id="instagram-link"></div>
+                        <div id="google-link"></div>
+                    </div>
+                </div>
+                <div id="footer-data-links">
+                    <p><span>Property Group</span>  |  <span>Privacy Policy</span>  
+                        |  <span>Due Diligence Checklist</span>  |  <span>Search</span></p>
+                </div>
+                <div id="footer-author-copyright">
+                    <p>&copy; bope all rights reserved  |  Designed by Martin DMS</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
